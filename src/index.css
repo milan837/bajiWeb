@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/medium.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'semibold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/semibold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/regular.ttf'); /* IE9 Compat Modes */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,6 +25,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: medium;
 }
 
 code {
